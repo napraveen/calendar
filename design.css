@@ -1,0 +1,107 @@
+
+.month{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+
+  background: skyblue;
+  text-align: center;
+}
+
+.month .prev{
+  list-style-type: none;
+  float: left;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+.month .next{
+  list-style-type: none;
+  float: right;
+  padding-top: 10px;
+  padding-right: 20px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+
+  color: green;
+  font-size: 20px;
+
+  letter-spacing: 3px;
+}
+
+
+
+.day {
+
+  padding: 10px 0;
+  width: 100%;
+  background-color:pink;
+}
+
+.day li {
+  display: inline-block;
+  width: 13.5%;
+  color: black;
+  text-align: center;
+}
+
+.date {
+  padding: 100px 0;
+  background: whitesmoke;
+
+  width: 100%;
+}
+
+.date li {
+  padding-bottom: 50px;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:20px;
+  color: black;
+}
+
+.date li .active {
+  padding: 5px;
+  background: hotpink;
+  color: black;
+  border-radius: 0%;
+}
+
+.date li .active:hover{
+  background-color: green;
+  color: white;
+  border-radius: 50%;
+
+}
+
+
+
+.prev{
+  border-radius: 50%;
+}
+
+.prevbg{
+  background-color: white;
+  float: left;
+  margin-left: 10px;
+}
+
+.next {
+  background-color: #f1f1f1;
+  color: white;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+
+#04AA6D
